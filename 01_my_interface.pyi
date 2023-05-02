@@ -1,0 +1,3 @@
+import numpy as np
+# Dentro questa interfaccia dichiaro la firma delle funzioni che utilizzero'
+def operation(x1: np.ndarray, x2: np.ndarray) -> np.ndarray: ...
