@@ -95,7 +95,7 @@ def deriv(func: Callable[[np.ndarray], np.ndarray],
     """
     return (func(input_ + delta) - func(input-delta)) / (2*delta)
 
-
+    
 
 def main():
     # fun01()
@@ -109,7 +109,8 @@ def main():
     
     print("ReLU di x: ", leaky_relu(x))
     
-    
+    print("Derivate:")
+
 
     
 main()
